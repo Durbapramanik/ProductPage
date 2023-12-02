@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Product Page</h1>
+    <div class="cart">
+      <button id="viewCartBtn">View Cart</button>
+      <span id="cartCount"> 0</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="product">
+      <img src="https://alpacaannie.com/wp-content/uploads/2020/03/Soap-1.jpg" alt="Soaps">
+      <h2>Soaps</h2>
+      <p>Description: Pure handmade soaps made up of materials organically sourced from local farms. They are gentle on
+        the skin and dont cause any rashes.</p>
+      <p>Price: Rs. 250 </p>
+      <button class="addToCartBtn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://www.annmariegianni.com/wp-content/uploads/2016/03/organic-skincare-products.jpg"
+        alt="Essential Oils">
+      <h2>Essential Oils</h2>
+      <p>Description: Soothing mind using meditation and relaxation. Made up of natural ingredients and lavender
+        extracts.</p>
+      <p>Price: Rs. 300 </p>
+      <button class="addToCartBtn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://worldstrides.com/wp-content/uploads/2018/02/iStock-155097702-min.jpg" alt="Chocolates">
+      <h2>Chocolates</h2>
+      <p>Description: High-quality belgian dark chocolate with an assorted range of combinations in a well crafted gift
+        box for a suitable gifting option.</p>
+      <p>Price: Rs. 450 </p>
+      <button class="addToCartBtn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://www.latestgadget.co/wp-content/uploads/2020/03/1-7.png" alt="Watches">
+      <h2>Watches</h2>
+      <p>Description: A collection of branded watches that are handcrafted to perfection by famous artisans.</p>
+      <p>Price: Rs. 50,000 </p>
+      <button class="addToCartBtn">Add to Cart</button>
+    </div>
+  </main>
+
+  <div class="cartOverlay" id="cartOverlay">
+    <div class="cartContent">
+      <h2>Shopping Cart</h2>
+      <div id="cartItems"></div>
+      <button id="closeCartBtn">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
